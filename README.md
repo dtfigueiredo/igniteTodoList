@@ -6,6 +6,10 @@ This project is a part from the Ignite ReactJS course from [Rocketseat](https://
 
 The objective of this project is to reinforce the fundamentals of ReactJS, as well as to practice its implementations, such as state management and component lifecycle. This project also aimed to study the use of Typescript to ensure static typing and error prevention during development.
 
+## 👁 Preview
+![image](https://github.com/dtfigueiredo/igniteTodoList/assets/85001250/43e65d67-10cb-42fb-8e51-837cd3e59d23)
+![image](https://github.com/dtfigueiredo/igniteTodoList/assets/85001250/05be7a82-691b-4101-afa3-bc2a6826e20f)
+
 ## 💻 Tech
 
 - ReactJs
