@@ -1,0 +1,91 @@
+/* BOX-SIZING */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* MARGIN & PADDING */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* BODY & HTML HEIGHT */
+html,
+body {
+	height: 100vh;
+	height: 100dvh;
+}
+/* Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
+body,
+input,
+textarea,
+button {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.4;
+	text-rendering: optimizeSpeed;
+	-webkit-font-feature: antialised;
+	-webkit-font-smoothing: antialiased;
+}
+/* MEDIA TWEAKS */
+img,
+picture,
+video,
+canvas,
+svg {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	font-style: italic;
+	background-repeat: no-repeat;
+	background-size: cover;
+	shape-margin: 0.75rem;
+}
+/* FORM TYPO TWEAKS */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/* TEXT OVERFLOW TWEAKS */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+/* Create a root stacking context */
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 87.5%;
+	}
+}

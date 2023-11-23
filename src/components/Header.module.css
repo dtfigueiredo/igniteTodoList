@@ -1,0 +1,6 @@
+.header {
+	display: grid;
+	place-content: center;
+	padding: 4rem 0;
+	background-color: var(--grey-700);
+}
